@@ -58,7 +58,7 @@ void adc_adc3_init(void)
 	
 	ADC_SoftwareStartConv(ADC3);  // 开始ADC转换，软件触发
 	
-	initQueue(&ADC3_value,50);
+	initQueue(&ADC3_value,60);
 	//test = 1;
 	
 	
